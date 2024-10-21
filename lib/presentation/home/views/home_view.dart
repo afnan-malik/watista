@@ -18,7 +18,7 @@ class HomeView extends GetView<HomeController> {
       builder: (controller) {
         return Scaffold(
           appBar: PreferredSize(
-            preferredSize: Size.fromHeight(kToolbarHeight),
+            preferredSize: const Size.fromHeight(kToolbarHeight),
             child: Container(
               decoration: const BoxDecoration(
                 gradient: LinearGradient(
